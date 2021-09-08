@@ -1,0 +1,23 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.card{
+   background-color: #eee;
+   width: calc(500px - 20px);
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.card  h3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    vertical-align: bottom;
+}
